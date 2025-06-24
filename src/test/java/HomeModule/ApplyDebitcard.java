@@ -13,6 +13,6 @@ public void debit()
 public void credit()
 {
 	System.out.println("credit card is applied ");
-	
+	System.out.println("credit card is applied ");
 	}
 }
