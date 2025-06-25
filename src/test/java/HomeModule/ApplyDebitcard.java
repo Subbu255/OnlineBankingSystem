@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class ApplyDebitcard {
 
 	WebDriver driver;
-{
+	
 @Test
 public void debit()
 {
@@ -21,8 +21,9 @@ public void credit()
 {
 	System.out.println("credit card is applied ");
 	System.out.println("credit card is applied ");
-	}
+}
 
+	
 	@BeforeClass
     public void setup() {
         // Set the path to your ChromeDriver if not in system PATH
