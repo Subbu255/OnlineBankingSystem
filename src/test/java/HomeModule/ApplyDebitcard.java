@@ -7,12 +7,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
-public class ApplyDebitcard 
+public class ApplyDebitcard {
 
 	WebDriver driver;
-
-
-
 {
 @Test
 public void debit()
