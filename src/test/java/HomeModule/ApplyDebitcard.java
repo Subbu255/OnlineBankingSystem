@@ -22,28 +22,4 @@ public void credit()
 	System.out.println("credit card is applied ");
 	System.out.println("credit card is applied ");
 }
-
-	
-	@BeforeClass
-    public void setup() {
-        // Set the path to your ChromeDriver if not in system PATH
-        // System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-    }
-
-    @Test
-    public void testGoogleSearch() {
-        driver.get("https://www.google.com");
-        WebElement searchBox = driver.findElement(By.name("q"));
-        searchBox.sendKeys("Selenium WebDriver");
-        searchBox.submit();
-    }
-
-    @AfterClass
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
 }
