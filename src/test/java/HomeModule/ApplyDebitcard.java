@@ -11,6 +11,7 @@ public class ApplyDebitcard
 
 	WebDriver driver;
 
+
 {
 @Test
 public void debit()
